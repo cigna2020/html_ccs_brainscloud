@@ -12,6 +12,13 @@ body {
     text-transform: uppercase;
 }
 
+.link-title {
+    color: blue;
+    background-color: yellowgreen;
+    text-transform: uppercase;
+    width: 100%;
+}
+
 .justify {
     text-align: justify;
     font-style: italic;
@@ -27,7 +34,8 @@ body {
     text-align: left;
     border: 3px dashed #000000;
     padding: 5px 10px;
-    color: red;
+    color: rgb(12, 147, 209);
+    background-color: yellow;
 }
 
 .table td {
@@ -36,5 +44,6 @@ body {
 }
 
 .table tfoot td {
-    text-align: right;
+    text-align: center;
+    background-color: orange;
 }
