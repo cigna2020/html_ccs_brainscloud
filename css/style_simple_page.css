@@ -51,4 +51,70 @@ body {
 
 .nav-link:hover {
     background-color: #ddd;
+    font-size: 18px;
+}
+
+/* Content */
+
+.content {
+    padding: 20px;
+}
+
+.content-title {
+    font-size: 24px;
+    margin: 0;
+    color: #740b5d;
+    margin-bottom: 10px;
+}
+
+.content-text {
+    margin-bottom: 20px;
+}
+
+.content-link {
+    color: #139acf;
+    text-decoration: none;
+}
+
+.content-link:hover {
+    text-decoration: underline;
+}
+
+/* Article */
+
+.article-title {
+    font-size: 18px;
+    color: rgb(238, 170, 25);
+    margin: 0;
+}
+
+.article-title a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.article-title a:hover {
+    text-decoration: underline;
+    color: cornflowerblue;
+    font-size: 20px;
+}
+
+.article-date {
+    color: #5d5959;
+    font-size: 12px;
+}
+
+.article-text {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+/* Footer */
+
+.footer {
+    padding: 20px;
+    background-color: #121212;
+    color: white;
+    text-align: center;
 }
