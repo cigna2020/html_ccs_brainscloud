@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style_register_form.css">
+    <title>Register</title>
+</head>
+
+<body>
+
+    <div class="auth">
+        <h1 class="auth-title">Register</h1>
+
+        <form action="/" method="POST">
+            <div class="input-group">
+                <input class="input" type="text" placeholder="name..." name="name">
+            </div>
+
+            <div class="input-group">
+                <input class="input" type="email" placeholder="email..." name="email">
+            </div>
+
+            <div class="input-group">
+                <input class="input" type="tel" placeholder="phone numb..." name="tel">
+            </div>
+
+            <div class="input-group">
+                <input class="input" type="password" placeholder="create password" name="password">
+            </div>
+
+            <div class="input-group">
+                <input class="input" type="password" placeholder="confirm password" name="password_confirm">
+            </div>
+
+            <div class="input-group">
+                <select class="select" name="city" id="city">
+                    <option value="kyiv">Kyiv</option>
+                    <option value="lviv">Lviv</option>
+                    <option value="odessa">Odessa</option>
+                </select>
+            </div>
+
+            <div class="input-group">
+                <input type="checkbox" name="rules" id="rules">
+                <label for="rules">I agree!</label>
+            </div>
+
+            <button class="btn" type="submit">Ready</button>
+
+
+
+
+
+        </form>
+
+    </div>
+</body>
+
+</html>
