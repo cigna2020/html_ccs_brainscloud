@@ -17,6 +17,7 @@ body {
     letter-spacing: 5px;
     text-decoration: underline;
     text-transform: uppercase;
+    color: #ccc;
 }
 
 .link-title {
@@ -108,4 +109,34 @@ body {
     /* background-image: linear-gradient(to left, #68b420 30%, #333333 30%, red 30%, #fff); */
     background-image: radial-gradient(circle, #fff, #333);
     margin: 0 auto;
+}
+
+/* Forms */
+
+.form {
+    width: 500px;
+    padding: 20px;
+    margin: auto;
+    background-color: white;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-input {
+    display: block;
+    padding: 5px;
+    border: 1px solid #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.form-textarea {
+    width: 300px;
+    height: 150px;
+    border: 1px solid #000;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
 }

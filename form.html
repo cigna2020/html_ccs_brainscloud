@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Forms</title>
+</head>
+
+<body>
+
+    <div class="form">
+        <h1 class="title">Work with forms</h1>
+
+        <form action="/" method="POST">
+            <fieldset>
+                <legend>Contact information</legend>
+                <div class="form-group">
+                    <label for="input-name">Ваше имя:</label>
+                    <input class="form-input" type="text" name="your name" placeholder="put your name" id="input-name">
+                </div>
+                <div class="form-group">
+                    <label for="input-email">Ваш E-mail:</label>
+                    <input class="form-input" type="email" name="email" placeholder="your e-mail" id="input-email">
+                </div>
+                <div class="form-group">
+                    <input class="form-input" type="password" name="password" placeholder="password">
+                </div>
+                <div class="form-group">
+                    <input class="form-input" type="tel" name="tel" placeholder="your phone">
+                </div>
+            </fieldset>
+
+            <div>
+                <textarea class="form-textarea" name="text" id="" placeholder="About you..."></textarea>
+            </div>
+
+            <fieldset>
+                <legend>Download file</legend>
+                <div class="form-group">
+                    <label for="photo">Choose your photo</label>
+                    <input type="file" name="photo" id="photo">
+                </div>
+            </fieldset>
+
+            <div class="form-group">
+                <select name="city" id="">
+                    <option value="">Kyiv</option>
+                    <option value="">Bucha</option>
+                    <option value="">Lviv</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="input-Mr">Mr.</label>
+                <input type="radio" name="choose_male" id="input-Mr">
+
+                <label for="input-Ms">Ms / Mss</label>
+                <input type="radio" name="choose_male" id="input-Ms">
+            </div>
+
+            <div class="form-group">
+                <input type="checkbox" id="agree">
+                <label for="agree">I agree with the ruls</label>
+            </div>
+
+            <div>
+                <button type="submit">Send your form</button>
+            </div>
+            <div>
+                <button type="reset">Clean the form</button>
+            </div>
+        </form>
+
+    </div>
+</body>
+
+</html>
