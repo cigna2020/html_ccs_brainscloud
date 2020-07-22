@@ -211,3 +211,58 @@ body {
 .btn:active {
     background-color: #e63131;
 }
+
+/* Position */
+
+.body-position {
+    margin: 0;
+    background: none;
+}
+
+.modal {
+    width: 500px;
+    height: 300px;
+    margin: 20px auto;
+    background-color: #b9aeaeea;
+
+    position: relative;
+
+    padding: 15px;
+}
+
+.square {
+    width: 50px;
+    height: 50px;
+
+    background-color: #333;
+
+    position: absolute;
+    right: -20px;
+    top: -20px;
+
+    z-index: 2;
+}
+
+.square.red {
+    background-color: #df0d0d;
+    right: -5px;
+    top: -5px;
+
+    z-index: 1;
+}
+
+.square-fixed {
+    width: 50px;
+    height: 50px;
+
+    background-color: #190aa1;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+
+.modal-title {
+    margin: 0;
+}
