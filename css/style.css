@@ -1,6 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 2em;
+    font-size: 15px;
     color: #000000;
     /* background-color: #ddd;
     background-image: url('/img/pattern.png');
@@ -15,7 +15,7 @@ body {
     text-align: center;
     font-weight: 700;
     letter-spacing: 5px;
-    text-decoration: underline;
+    text-decoration: underline overline dotted blueviolet;
     text-transform: uppercase;
     color: #ccc;
 }
@@ -124,12 +124,34 @@ body {
     margin-bottom: 15px;
 }
 
+.form-feildset {
+    border: 1px solid #000;
+    padding: 20px;
+    font-size: 24px;
+    border-top: 1px dashed #e72020;
+    border-left-color: #168ddd;
+    border-right-color: grey;
+    border-right-width: 10px;
+    border-right-style: groove;
+    border-bottom-style: dotted;
+
+}
+
+.form-title {
+    margin: 0 0 15px 0;
+}
+
 .form-input {
     display: block;
     padding: 5px;
     border: 1px solid #000;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
+}
+
+.form-input:focus {
+    outline: none;
+    background-color: #b9aeaeea
 }
 
 .form-textarea {
@@ -139,4 +161,53 @@ body {
     padding: 5px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
+    outline: 4px solid lawngreen;
+    outline-offset: 3px;
+}
+
+.form-textarea:focus {
+    outline: none;
+    background-color: #b9aeaeea
+}
+
+/* Reference */
+
+.link {
+    color: #d88416;
+    text-decoration: none;
+}
+
+.link:visited {
+    color: #f0c106;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.link:active {
+    color: #f72b2b;
+}
+
+.btn {
+    padding: 5px 10px;
+    background-color: #0de718;
+    color: #fff;
+    border: 1px solid #045a09;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #045a09;
+    cursor: pointer;
+}
+
+.btn:disabled {
+    background-color: #444;
+    color: #745858;
+    cursor: not-allowed;
+}
+
+.btn:active {
+    background-color: #e63131;
 }

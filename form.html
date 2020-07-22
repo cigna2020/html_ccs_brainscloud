@@ -13,9 +13,11 @@
     <div class="form">
         <h1 class="title">Work with forms</h1>
 
+        <a class="link" href="#">Refence</a>
+
         <form action="/" method="POST">
-            <fieldset>
-                <legend>Contact information</legend>
+            <div class="form-feildset">
+                <h3 class="form-title">Contact information</h3>
                 <div class="form-group">
                     <label for="input-name">Ваше имя:</label>
                     <input class="form-input" type="text" name="your name" placeholder="put your name" id="input-name">
@@ -30,19 +32,19 @@
                 <div class="form-group">
                     <input class="form-input" type="tel" name="tel" placeholder="your phone">
                 </div>
-            </fieldset>
+            </div>
 
-            <div>
+            <div class="form-group">
                 <textarea class="form-textarea" name="text" id="" placeholder="About you..."></textarea>
             </div>
 
-            <fieldset>
-                <legend>Download file</legend>
-                <div class="form-group">
+            <div>
+                <h3 class="form-title">Download file</h3>
+                <div class="form-feildset">
                     <label for="photo">Choose your photo</label>
                     <input type="file" name="photo" id="photo">
                 </div>
-            </fieldset>
+            </div>
 
             <div class="form-group">
                 <select name="city" id="">
@@ -66,10 +68,10 @@
             </div>
 
             <div>
-                <button type="submit">Send your form</button>
+                <button class="btn" type="submit" disabled>Send your form</button>
             </div>
             <div>
-                <button type="reset">Clean the form</button>
+                <button class="btn" type="reset">Clean the form</button>
             </div>
         </form>
 
