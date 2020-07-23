@@ -1,280 +1,290 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
-  color: #000000;
-  /* background-color: #ddd;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #000000;
+    /* background-color: #ddd;
     background-image: url('/img/pattern.png');
     background-repeat: repeat; */
-  /* background-size: 100px 100px 100px 100px; */
+    /* background-size: 100px 100px 100px 100px; */
 
-  /* те саме, що і вище: */
-  background: #ddd url("/img/pattern.png") repeat center;
+    /* те саме, що і вище: */
+    background: #ddd url("/img/pattern.png") repeat center;
 }
 
 .title {
-  text-align: center;
-  font-weight: 700;
-  letter-spacing: 5px;
-  text-decoration: underline overline dotted blueviolet;
-  text-transform: uppercase;
-  color: #ccc;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 5px;
+    text-decoration: underline overline dotted blueviolet;
+    text-transform: uppercase;
+    color: #ccc;
 }
 
 .link-title {
-  color: blue;
-  background-color: yellowgreen;
-  text-transform: uppercase;
-  width: 100%;
+    color: blue;
+    background-color: yellowgreen;
+    text-transform: uppercase;
+    width: 100%;
 }
 
 .justify {
-  text-align: justify;
-  font-style: italic;
+    text-align: justify;
+    font-style: italic;
 }
 
 .table {
-  border: 1px solid #000;
-  width: 100%;
-  border-collapse: collapse;
+    border: 1px solid #000;
+    width: 100%;
+    border-collapse: collapse;
 }
 
 .table th {
-  text-align: left;
-  border: 3px dashed #000000;
-  padding: 5px 10px;
-  color: rgb(12, 147, 209);
-  background-color: yellow;
+    text-align: left;
+    border: 3px dashed #000000;
+    padding: 5px 10px;
+    color: rgb(12, 147, 209);
+    background-color: yellow;
 }
 
 .table td {
-  border: 5px solid #000000;
-  padding: 5px 10px;
+    border: 5px solid #000000;
+    padding: 5px 10px;
 }
 
 .table tfoot td {
-  text-align: center;
-  background-color: orange;
+    text-align: center;
+    background-color: orange;
 }
 
 .red-color {
-  color: red;
-  display: block;
-  width: 100px;
-  display: inline-block;
+    color: red;
+    display: block;
+    width: 100px;
+    display: inline-block;
 }
 
 .content {
-  width: 400px;
-  margin-left: auto;
-  margin-right: auto;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .post-title {
-  margin: 0 0 20px 0;
-  color: #f7b709;
+    margin: 0 0 20px 0;
+    color: #f7b709;
 }
 
 /* Styles for post */
 .post {
-  width: 700px;
-  height: 400px;
-  height: auto;
-  /* margin-left: auto;
+    width: 700px;
+    height: 400px;
+    height: auto;
+    /* margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px */
-  margin: 0 auto 20px auto;
-  border: 1px solid #ddd;
-  padding: 15px 25px;
-  background-color: #fff;
-  background-image: url("/img/bg.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+    margin: 0 auto 20px auto;
+    border: 1px solid #ddd;
+    padding: 15px 25px;
+    background-color: #fff;
+    background-image: url("/img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .post-text p {
-  margin: 0 0 10px 0;
-  color: white;
+    margin: 0 0 10px 0;
+    color: white;
 }
 
 /* Gradient */
 .gradient {
-  width: 700px;
-  height: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 15px 25px;
-  /* background-image: linear-gradient(to left, #68b420 30%, #333333 30%, red 30%, #fff); */
-  background-image: radial-gradient(circle, #fff, #333);
-  margin: 0 auto;
+    width: 700px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 25px;
+    /* background-image: linear-gradient(to left, #68b420 30%, #333333 30%, red 30%, #fff); */
+    background-image: radial-gradient(circle, #fff, #333);
+    margin: 0 auto;
 }
 
 /* Forms */
 
 .form {
-  width: 500px;
-  padding: 20px;
-  margin: auto;
-  background-color: white;
+    width: 500px;
+    padding: 20px;
+    margin: auto;
+    background-color: white;
 }
 
 .form-group {
-  margin-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 .form-feildset {
-  border: 1px solid #000;
-  padding: 20px;
-  font-size: 24px;
-  border-top: 1px dashed #e72020;
-  border-left-color: #168ddd;
-  border-right-color: grey;
-  border-right-width: 10px;
-  border-right-style: groove;
-  border-bottom-style: dotted;
+    border: 1px solid #000;
+    padding: 20px;
+    font-size: 24px;
+    border-top: 1px dashed #e72020;
+    border-left-color: #168ddd;
+    border-right-color: grey;
+    border-right-width: 10px;
+    border-right-style: groove;
+    border-bottom-style: dotted;
 }
 
 .form-title {
-  margin: 0 0 15px 0;
+    margin: 0 0 15px 0;
 }
 
 .form-input {
-  display: block;
-  padding: 5px;
-  border: 1px solid #000;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
+    display: block;
+    padding: 5px;
+    border: 1px solid #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
 }
 
 .form-input:focus {
-  outline: none;
-  background-color: #b9aeaeea;
+    outline: none;
+    background-color: #b9aeaeea;
 }
 
 .form-textarea {
-  width: 300px;
-  height: 150px;
-  border: 1px solid #000;
-  padding: 5px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
-  outline: 4px solid lawngreen;
-  outline-offset: 3px;
+    width: 300px;
+    height: 150px;
+    padding: 5px;
+
+    /* Для того, щоб не можна було міняти розмір форми вручну */
+    resize: vertical;
+    min-height: 100px;
+    max-height: 300px;
+
+    border: 1px solid #000;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    outline: 4px solid lawngreen;
+    outline-offset: 3px;
 }
 
 .form-textarea:focus {
-  outline: none;
-  background-color: #b9aeaeea;
+    outline: none;
+    background-color: #b9aeaeea;
 }
 
 /* Reference */
 
 .link {
-  color: #d88416;
-  text-decoration: none;
+    color: #d88416;
+    text-decoration: none;
 }
 
 .link:visited {
-  color: #f0c106;
+    color: #f0c106;
 }
 
 .link:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 .link:active {
-  color: #f72b2b;
+    color: #f72b2b;
 }
 
 .btn {
-  padding: 5px 10px;
-  background-color: #0de718;
-  color: #fff;
-  border: 1px solid #045a09;
+    padding: 5px 10px;
+    background-color: #0de718;
+    color: #fff;
+    border: 1px solid #045a09;
 }
 
 .btn:hover,
 .btn:focus {
-  background-color: #045a09;
-  cursor: pointer;
+    background-color: #045a09;
+    cursor: pointer;
+
+    /* Для плавності зміни кольору */
+    transition: background 0.9s linear;
 }
 
 .btn:disabled {
-  background-color: #444;
-  color: #745858;
-  cursor: not-allowed;
+    background-color: #444;
+    color: #745858;
+    cursor: not-allowed;
 }
 
 .btn:active {
-  background-color: #e63131;
+    background-color: #e63131;
 }
 
 /* Position */
 
 .body-position {
-  margin: 0;
-  background: none;
+    margin: 0;
+    background: none;
 }
 
 .modal {
-  width: 500px;
-  height: 300px;
-  margin: 20px auto;
-  background-color: #b9aeaeea;
+    width: 500px;
+    height: 300px;
+    margin: 20px auto;
+    background-color: #b9aeaeea;
 
-  position: relative;
+    position: relative;
 
-  padding: 15px;
+    padding: 15px;
 }
 
 .square {
-  width: 50px;
-  height: 50px;
+    width: 50px;
+    height: 50px;
 
-  background-color: #333;
+    background-color: #333;
 
-  position: absolute;
-  right: -20px;
-  top: -20px;
+    position: absolute;
+    right: -20px;
+    top: -20px;
 
-  z-index: 2;
+    z-index: 2;
 }
 
 .square.red {
-  background-color: #df0d0d;
-  right: -5px;
-  top: -5px;
+    background-color: #df0d0d;
+    right: -5px;
+    top: -5px;
 
-  z-index: 1;
+    z-index: 1;
 }
 
 .square-fixed {
-  width: 50px;
-  height: 50px;
+    width: 50px;
+    height: 50px;
 
-  background-color: #190aa1;
+    background-color: #190aa1;
 
-  position: fixed;
-  top: 0;
-  left: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 .modal-title {
-  margin: 0;
+    margin: 0;
 }
 
 /* Pseudo */
 
 .pseudo-body {
-  background: none;
+    background: none;
 }
 
 .pseudo-titel {
-  margin: 0;
+    margin: 0;
 
-  position: relative;
-  text-align: center;
-  font-size: 30px;
+    position: relative;
+    text-align: center;
+    font-size: 30px;
 }
 
 /* .pseudo-titel::before {
@@ -285,17 +295,17 @@ body {
 } */
 
 .pseudo-titel::before {
-  content: "";
+    content: "";
 
-  margin: 5px auto 5px -150px;
-  display: block;
-  width: 300px;
-  height: 4px;
-  background-color: #d61751;
+    margin: 5px auto 5px -150px;
+    display: block;
+    width: 300px;
+    height: 4px;
+    background-color: #d61751;
 
-  position: absolute;
-  bottom: 0;
-  left: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
 }
 
 /* .pseudo-titel::after {
@@ -305,21 +315,49 @@ body {
 } */
 
 .pseudo-titel::after {
-  content: "";
+    content: "";
 
-  margin: 5px auto;
-  display: block;
-  width: 300px;
-  height: 3px;
-  background-color: #168ddd;
+    margin: 5px auto;
+    display: block;
+    width: 300px;
+    height: 3px;
+    background-color: #168ddd;
 }
 
 .pseudo-text p::first-letter {
-  color: red;
-  font-size: 32px;
+    color: red;
+    font-size: 32px;
 }
 
 .pseudo-text p::first-line {
-  background-color: yellow;
-  font-weight: 700;
+    background-color: yellow;
+    font-weight: 700;
+}
+
+/* CSS3 */
+
+.elem {
+    width: 400px;
+    height: 400px;
+    margin: 20px auto;
+    padding: 20px;
+
+    /* щоб педдінги не впливали на розмір бокса */
+    box-sizing: border-box;
+
+    /* непрозорість елемента, від 0 до 1 */
+    opacity: 0.4;
+
+    background-color: #ccc;
+    border-radius: 20px;
+    /* border-radius: 10px 30px 50px 100px; */
+    /* border-radius: 20% 30% 40% 30% / 40% 20% 50% 20%; */
+    /* border-top-left-radius: 50%; */
+    box-shadow: 50px -15px 70px 40px #ccc, 0 0 20px inset #d11c1c;
+}
+
+.elem-title {
+    margin: 0;
+
+    text-shadow: 2px 2px 2px #226db4, -2px -2px 2px #ecf014;
 }
