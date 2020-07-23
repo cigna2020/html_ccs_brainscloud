@@ -1,0 +1,53 @@
+html {
+    font-size: 15px;
+    /* тепер 1 рем = 15 рх ЗАВЖДИ, не залежно від окремо встановленого шрифту */
+}
+
+body {
+    margin: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #121212;
+}
+
+.container {
+    width: 400px;
+    padding: 1rem;
+    margin: 20px auto;
+
+    background-color: #eee;
+}
+
+.title {
+    margin: 0 0 15px;
+    font-size: 30px;
+    color: #121212;
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+
+    background-color: #36b717;
+
+    font-size: 15px;
+    color: #ffffff;
+    text-decoration: none;
+
+    border-radius: 0.4em;
+    box-shadow: 0 0 0.4em #333333;
+}
+
+.btn-xl {
+    display: inline-block;
+
+    /* Розмір відносно розміру шрифту */
+    padding: 0.4em 0.7em;
+
+    background-color: #36b717;
+
+    font-size: 35px;
+    color: #ffffff;
+    text-decoration: none;
+}
