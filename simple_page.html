@@ -11,72 +11,78 @@
 <body>
 
     <div class="page">
-        <div class="header">
+        <header class="header">
             <h1 class="header-title">My page, lesson 17</h1>
             <h2 class="header-subtitle">Welcome to this page!</h2>
-        </div>
-        <div class="nav">
+        </header>
+        <nav class="nav">
             <a href="#" class="nav-link">Main page</a>
             <a href="#" class="nav-link">News</a>
             <a href="#" class="nav-link">Video</a>
             <a href="#" class="nav-link">About author</a>
-        </div>
+        </nav>
 
-        <img src="/img/intro.jpg" alt="intro">
+        <div class="container">
+            <main class="content">
+                <img class="image intro" src="/img/intro.jpg" alt="intro">
 
-        <div class="content">
-            <h3 class="content-title">About author</h3>
-            <div class="content-text">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nobis saepe qui commodi cumque
-                    suscipit aut minima, veniam neque natus quidem modi animi alias doloremque atque voluptates nulla
-                    rerum exercitationem?</p>
-                <a class="content-link" href="#">Read more...</a>
-            </div>
+                <h3 class="content-title">News</h3>
+                <article class="article">
+                    <h4 class="article-title">
+                        <a href="#">Some news title</a>
+                    </h4>
+                    <time datetime="21-07-2020" class="article-date">21-st of July, 2020</time>
+                    <div class="article-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id a eveniet recusandae, ea incidunt
+                            rerum impedit rem assumenda, aspernatur iure alias nulla. Excepturi officiis facilis in
+                            quos,
+                            eaque modi quam?</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error amet numquam odio animi
+                            aperiam,
+                            necessitatibus cupiditate eum illo et, consequatur, exercitationem quo aspernatur vel iure
+                            natus
+                            fugit nam laborum quod?</p>
+                        <a class="content-link" href="#">Read more...</a>
+                    </div>
+                </article>
 
-            <h3 class="content-title">News</h3>
-            <div class="article">
-                <h4 class="article-title">
-                    <a href="#">Some news title</a>
-                </h4>
-                <div class="article-date">21-st of July, 2020</div>
-                <div class="article-text">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id a eveniet recusandae, ea incidunt
-                        rerum impedit rem assumenda, aspernatur iure alias nulla. Excepturi officiis facilis in quos,
-                        eaque modi quam?</p>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error amet numquam odio animi aperiam,
-                        necessitatibus cupiditate eum illo et, consequatur, exercitationem quo aspernatur vel iure natus
-                        fugit nam laborum quod?</p>
+                <article class="article">
+                    <h4 class="article-title">
+                        <a href="#">Some news title</a>
+                    </h4>
+                    <time datetime="21-07-2020 19:21" class="article-date">21-st of July, 2020</time>
+                    <div class="article-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id a eveniet recusandae, ea
+                            incidunt
+                            rerum impedit rem assumenda, aspernatur iure alias nulla. Excepturi officiis facilis
+                            in quos,
+                            eaque modi quam?</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error amet numquam odio
+                            animi aperiam,
+                            necessitatibus cupiditate eum illo et, consequatur, exercitationem quo aspernatur
+                            vel iure natus
+                            fugit nam laborum quod?</p>
+                        <a class="content-link" href="#">Read more...</a>
+                    </div>
+                </article>
+            </main>
+
+            <aside class="sidebar">
+                <h3 class="sidebar-title">About author</h3>
+                <img class="image img-sidebar" src="/img/man.png" alt="man">
+                <div class="sidebar-text">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nobis saepe qui commodi cumque
+                        suscipit aut minima, veniam neque natus quidem modi animi alias doloremque atque voluptates
+                        nulla
+                        rerum exercitationem?</p>
                     <a class="content-link" href="#">Read more...</a>
                 </div>
-            </div>
-
-            <div class="article">
-                <h4 class="article-title">
-                    <a href="#">Some news title</a>
-                </h4>
-                <div class="article-date">21-st of July, 2020</div>
-                <div class="article-text">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id a eveniet recusandae, ea
-                        incidunt
-                        rerum impedit rem assumenda, aspernatur iure alias nulla. Excepturi officiis facilis
-                        in quos,
-                        eaque modi quam?</p>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error amet numquam odio
-                        animi aperiam,
-                        necessitatibus cupiditate eum illo et, consequatur, exercitationem quo aspernatur
-                        vel iure natus
-                        fugit nam laborum quod?</p>
-                    <a class="content-link" href="#">Read more...</a>
-                </div>
-
-            </div>
-
-
+            </aside>
         </div>
 
-        <div class="footer">
-            <span>Copyright &copy 2020 Alex & Co. All rights reserved.</span>
-        </div>
+        <footer class="footer">
+            Copyright &copy 2020 Alex & Co. All rights reserved.
+        </footer>
 
     </div>
 
