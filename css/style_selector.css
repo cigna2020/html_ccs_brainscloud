@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #121212;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    padding: 15px;
+    margin: 15px auto;
+}
+
+.text {
+    margin-bottom: 40px;
+}
+
+.text span {
+    background-color: #71bdf0;
+}
+
+.text span[title="Text"] {
+    color: black;
+}
+
+.text>p {
+    color: red;
+}
+
+.text>p:last-of-type {
+    color: #186bca;
+}
+
+.list {
+    margin-bottom: 40px;
+}
+
+
+.list li:nth-child(2) {
+    color: red;
+}
+
+/* непарні елементи: для парних - even*/
+.list li:nth-child(odd) {
+    color: #2cdb09;
+}
+
+.list li:first-child,
+.list li:last-child {
+    color: blue;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.table tbody tr:nth-child(odd) {
+    color: red;
+    background-color: #ccc;
+}
+
+.label {
+    color: #ccc;
+}
+
+.checkbox:checked+.label {
+    color: black;
+}
