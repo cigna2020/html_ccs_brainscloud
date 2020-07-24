@@ -1,6 +1,26 @@
+@font-face {
+    font-family: 'EuroStile';
+    src: url("/fonts/EurostileRound-Regular.woff") format('woff'),
+        url("/fonts/EurostileRound-Regular.woff2") format('worr2');
+}
+
+@font-face {
+    font-family: 'EuroStile';
+    src: url("/fonts/EurostileRound-Bold.woff") format('woff'),
+        url("/fonts/EurostileRound-Bold.woff2") format('worr2');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'EuroStile';
+    src: url("/fonts/EurostileRound-Italic.woff") format('woff'),
+        url("/fonts/EurostileRound-Italic.woff2") format('worr2');
+    font-style: italic;
+}
+
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'EuroStile', sans-serif;
     color: #121212;
     font-size: 15px;
     line-height: 1.5;
@@ -55,6 +75,7 @@ h6 {
     color: #8f7d19;
     text-align: center;
     font-weight: normal;
+    font-style: italic;
 }
 
 /* Nav */
@@ -64,6 +85,7 @@ h6 {
     text-decoration: none;
     color: #121212;
     font-weight: 700;
+    font-style: italic;
 }
 
 .nav {
