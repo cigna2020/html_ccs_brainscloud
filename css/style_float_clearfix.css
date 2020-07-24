@@ -1,0 +1,61 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: #121212;
+}
+
+.page {
+    width: 800px;
+    margin: 20px auto;
+
+    background-color: #eee;
+}
+
+.main {
+    float: left;
+    width: 75%;
+}
+
+.sidebar {
+    width: 25%;
+    height: 100%;
+    float: right;
+    background-color: #ccc;
+}
+
+.page-titel {
+    margin: 0 0 1rem;
+
+    font-size: 2rem;
+    color: #121212;
+}
+
+.footer {
+    padding: 10px;
+
+    background-color: #333;
+    color: #fff;
+}
+
+.content::before,
+.content::after {
+    content: "";
+    display: table;
+    width: 100%;
+}
+
+.content::after {
+    clear: both;
+}
+
+.page-image {
+    height: 200px;
+    float: left;
+    margin-right: 10px;
+}
