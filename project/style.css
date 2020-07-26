@@ -1,0 +1,175 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 15px;
+}
+
+body {
+    margin: 0;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0 0 10;
+}
+
+/* Container
+=============================== */
+.container {
+    height: 100%;
+    max-width: 1000px;
+
+    margin: 0 auto;
+
+}
+
+
+/* Page
+=============================== */
+
+.page {
+    width: 100%;
+    height: 100vh;
+
+    background: url('/project/img/bg.jpg') center no-repeat;
+    background-size: cover;
+}
+
+
+/* Header
+================================= */
+
+.header {
+    padding: 1rem;
+    margin-bottom: 110px;
+
+    background: #255796;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-brand {
+    font-size: 24px;
+    line-height: 20px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.header-nav {
+    display: flex;
+}
+
+.header-nav-link {
+    margin-left: 1.5rem;
+
+    color: #fff;
+    font-weight: 500;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.header-nav-link:hover {
+    color: turquoise;
+    transition: 0.4s linear;
+}
+
+.header-logo img {
+    display: block;
+}
+
+.header-nav-link.active {
+    position: relative;
+}
+
+.header-nav-link.active::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+
+    background-color: #fff;
+
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+}
+
+/* Content
+================================= */
+
+.content {
+    width: 565px;
+}
+
+
+.subtitle {
+    font-size: 21px;
+    font-weight: 300;
+    color: #fff;
+    opacity: 60%;
+}
+
+.title {
+    margin-bottom: 35px;
+
+    font-size: 30px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 1.2;
+}
+
+.title span {
+    color: #2b7ded;
+}
+
+.text {
+    margin-bottom: 50px;
+
+    font-size: 1rem;
+    color: #fff;
+}
+
+/* btn
+================================= */
+
+.btn {
+    display: inline-block;
+    padding: 12px 35px;
+
+    font-size: 1rem;
+    line-height: 1.1;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+
+    background-color: #255796;
+    border-radius: 5px;
+
+}
+
+.btn:hover {
+    background-color: #0c3666;
+    transition: 0.4s linear;
+}
+
+s
