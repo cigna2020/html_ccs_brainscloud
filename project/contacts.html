@@ -8,7 +8,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/project/style.css" />
     <link rel="icon" type="image/png" href="/project/img/favicon.png">
-    <title>About Jessie</title>
+
+    <meta name="discription" content="About me page">
+    <meta name="keywords" content="разработчик сайтов, веб девелопер">
+
+    <title>Contacts</title>
 </head>
 
 <body>
@@ -27,8 +31,8 @@
 
                     <div class="header-nav">
                         <a class="header-nav-link" href="index.html">Home</a>
-                        <a class=" header-nav-link active" href="about.html">About me</a>
-                        <a class="header-nav-link" href="contacts.html">Contacts</a>
+                        <a class=" header-nav-link" href="about.html">About me</a>
+                        <a class="header-nav-link active" href="contacts.html">Contacts</a>
                     </div>
                 </div>
             </div>
@@ -40,32 +44,28 @@
             <main class="content">
                 <div class="content-header">
                     <h1 class="title">
-                        BullDog <span>Jessie</span></h1>
+                        Write me a <span>message</span></h1>
+                    <div class="text">Many desktop publishing packages and web page editors now use Lorem</div>
                 </div>
-                <div class="text">
-                    <p>
-                        It is a long established fact that a reader will be distracted by
-                        the readable content of a page when looking at its layout. The
-                        point of using Lorem Ipsum is that it has a more-or-less normal
-                        distribution of letters, as opposed to using ‘Content here,
-                        content here’, making it look like
-                    </p>
-                    <p>
-                        It is a long established fact that a reader will be distracted by
-                        the readable content of a page when looking at its layout. The
-                        point of using Lorem Ipsum is that it has a more-or-less normal
-                        distribution of letters, as opposed to using ‘Content here,
-                        content here’, making it look like
-                    </p>
-                    <p>
-                        It is a long established fact that a reader will be distracted by
-                        the readable content of a page when looking at its layout. The
-                        point of using Lorem Ipsum is that it has a more-or-less normal
-                        distribution of letters, as opposed to using ‘Content here,
-                        content here’, making it look like
-                    </p>
-                </div>
+                <form class="form" action="/" method="POST">
+                    <div class="form-group">
+                        <input class="input" type="text" name="name" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                        <input class="input" type="email" name="email" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <input class="input" type="tel" name="tel" placeholder="Phone">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="textarea" name="text" placeholder="Message"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-full" type="submit">Send massege</button>
+                    </div>
 
+
+                </form>
             </main>
         </div>
 
